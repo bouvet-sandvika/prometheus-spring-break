@@ -10,3 +10,5 @@ For en test kan du kjøre denne i consolen.
     up{instance="127.0.0.1:8080", job="spring-actuator"}
 
 Hvis du nå slår av og på serveren burde du se i grafen at den endres fra 0 til 1 og motsatt. 
+
+Når du skal konfigurere prometheus som kilde i Grafana må du bruke URL: host.docker.internal:9090
